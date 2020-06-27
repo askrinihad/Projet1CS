@@ -1,0 +1,59 @@
+body{
+    overflow: hidden;
+}
+
+.logo{
+    width:150px;
+    height: 110px;
+    padding-top: 20px;
+    margin-top: 5;
+    padding-bottom:30px;
+    padding-left:60px;
+}
+
+.sidebar a{
+    color: #fff;
+    width: 100%;
+    line-height:60px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+   
+}
+.nav-pills .nav-link.active{
+    background-color: #0D97D3;
+
+}
+.sidebar a:hover{
+    background: #0D97D3;
+}
+.tab-content{
+    padding-top: 70px;
+}
+
+
+
+.sidebar{
+    background: #323436;
+    background-size: 100%;
+    position: relative;
+    left:-20px;
+    width: 220px;
+    height: 100vh;
+}
+.bar h1{
+    color: #fff;
+    width: 100%;
+    top: 4px;
+    left: 5px;
+}
+
+
+.containerForm1{
+    
+    cursor: pointer;
+    background: #EEEEF1;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}

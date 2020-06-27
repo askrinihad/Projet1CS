@@ -1,0 +1,76 @@
+
+.btn-primary{
+    background-color:#ffc15e;
+    min-height: 50px;
+    border-radius: 25px;
+    padding-left: 24px;
+    padding-right:24px;
+    font-weight: 700;
+    border: 0px;
+    letter-spacing: 0.01em;
+    
+}
+.btn-primary:hover{
+    background-color: #34314f;
+    border: 4px solid #692db7;
+}
+.btn-secondary{
+    background-color: #34314f;
+    border:none;
+}
+
+.btn-secondary:hover{
+    background-color: #692db7;
+    border: none;
+}
+.container-fluid{
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;    
+}
+#footer-img{
+    max-width: 100%;
+    margin-bottom: 0;
+}
+
+.page-footer{
+    margin-top: 24px;
+}
+
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+ .table input{
+     min-width:72px;
+     max-width:100px;
+ }
+  table{
+      margin: 32px 24px 96px 24px;
+  }
+  #searchBar{
+      max-width: 500px;
+  }
+
+  #searchBar input{
+      border-radius:25px;
+      border: 1px solid #dee2e6;
+  }
+
+  .table-striped tbody tr:nth-of-type(odd), thead{
+      background-color: white;
+  }
+
+  .table-striped tbody tr:nth-of-type(odd) .form-control{
+      border: 1px solid #dee2e6;
+  }
+
+  .table-striped tbody tr:nth-of-type(even) {
+    background-color:#f8f9fa;
+  }  
+
+  .moyenneEtudiant{
+      font-weight: 500;
+  }
+
